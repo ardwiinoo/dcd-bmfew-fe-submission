@@ -43,7 +43,7 @@ function saveBookData() {
 
 function isStorageExist() {
     if (typeof (Storage) === undefined) {
-        alert("Browser kamu tidak mendukung local storage");
+        alert("Maaf, Browser Kamu Tidak Support");
         return false;
     }
 
